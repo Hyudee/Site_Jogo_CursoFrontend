@@ -80,6 +80,7 @@ html{
     display: flex;
     justify-content: center;
     gap: 20px;
+    position: relative;
 }
 .caixa1{
     height: 500px;
@@ -88,12 +89,49 @@ html{
     margin: 10px;
     border-radius: 10px;
 }
+.Caixa1Texto img{
+    width: 70px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    z-index: -1;
+}
+.Caixa1Texto{
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
 .caixa2{
     height: 500px;
     width: 300px;
     background-color: rgba(52, 156, 226, 0.205);
     margin: 10px;
     border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+.Chocolate img{
+    width: 100px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    z-index: -1;
+    transform: rotate(-10deg);
+    margin-left: 20px;
+}
+.Caixa2Texto{
+    display: flex;
+}
+.Acucar img{
+    width: 100px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    z-index: -1;
+    transform: rotate(15deg);
+    margin-left: 70px;
+    text-align: end;
 }
 .caixa3{
     height: 500px;
@@ -101,4 +139,33 @@ html{
     background-color: rgba(52, 156, 226, 0.205);
     margin: 10px;
     border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+.Caixa3Texto{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Maca img{
+    width: 100px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    z-index: -1;
+    transform: rotate(-10deg);
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.Cha img{
+    width: 100px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    z-index: -1;
+    transform: rotate(10deg);
+    margin-left: 10px;
+    padding-top: 20px;
 }
