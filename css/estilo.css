@@ -3,7 +3,10 @@
         padding: 0;
         box-sizing: border-box;
     }
-body{
+html{
+    scroll-behavior: smooth;
+}
+    body{
         font-family:'Segoe UI';
         background-color: lightblue;
         display: block;
@@ -15,23 +18,29 @@ body{
     }
 
 .header {
-    margin: 10px;
-    padding: 5px;
+    margin: 0 auto;
     display: flex;
     justify-content:center;
     align-items: center;
-    background: #9999FF;
-    gap: 30px;
+    background: rgba(153,153,255,0.25);
     flex-wrap: nowrap;
     border-radius: 15px;
+    width: 850px;
+    z-index: 10;
+    position: fixed;
+    top: 20px;
+    justify-content: space-evenly;
 }
 .header a{
     white-space: nowrap;
     color: white;
     margin:0 15px;
     text-decoration: none;
+    transition: color 0.35s ease-in;
 }
-
+.header a:hover{
+    color: rgba(255, 9, 214, 0.774);
+}
 .logo {
     font-weight: bold;
     font-size: 20px;
@@ -42,22 +51,54 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
-    padding-top: 30px;
+    justify-content: flex-start;
 }   
 .caixa{
-    width: 80%;
-    max-width:600px;
-    margin: 0 auto;
-    height: 60vh;
+    width: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-    border-radius: 20px;
-    overflow: hidden;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('../img/cozinhaa.png') center/cover;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    position: relative;
+}
+.Features{
+    min-height: 70vh;
+}
+.Features h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px auto;
+}
+.Todas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.caixa1{
+    height: 500px;
+    width: 300px;
+    background-color: rgba(52, 156, 226, 0.205);
+    margin: 10px;
+    border-radius: 10px;
+}
+.caixa2{
+    height: 500px;
+    width: 300px;
+    background-color: rgba(52, 156, 226, 0.205);
+    margin: 10px;
+    border-radius: 10px;
+}
+.caixa3{
+    height: 500px;
+    width: 300px;
+    background-color: rgba(52, 156, 226, 0.205);
+    margin: 10px;
+    border-radius: 10px;
 }
