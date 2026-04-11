@@ -1,0 +1,63 @@
+   * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+body{
+        font-family:'Segoe UI';
+        background-color: lightblue;
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
+        min-height: 150vh;
+        
+    }
+
+.header {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #9999FF;
+    gap: 30px;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+}
+.header a{
+    white-space: nowrap;
+    color: white;
+    margin:0 15px;
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    padding-top: 30px;
+}   
+.caixa{
+    width: 80%;
+    max-width:600px;
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('../img/cozinhaa.png') center/cover;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
