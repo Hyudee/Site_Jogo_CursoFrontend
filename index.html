@@ -8,7 +8,8 @@
     <meta name="author" content="Davi Hyude, Lucas Natanael, Danah Bezerra, Jõao Pedro, Icaro Henrique">
     <title>Papa's Tia Bete!</title>
     <link rel="stylesheet" href="css/estilo.css">
-</head>
+    <link rel="icon" href="./img/favicon" type="image/png">
+</head> 
 
 <body>
 
@@ -18,15 +19,15 @@
     <div class="menu">
 
         <div class="header">
-            <a href="#">Download</a>
+            <a href="#objetivos">Objetivos</a>
             <a href="#Features">Features</a>
 
             <a href="index.html">
                 <h2 class="logo">Papa's Tia Bete!</h2>
             </a>
 
-            <a href="#">Sobre</a>
-            <a href="#">Personagens</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#personagens">Personagens</a>
         </div>
 
         <!-- =========================
@@ -38,8 +39,8 @@
 
             <div>
                 <br>
-                <button class="bt1">Jogar agora!</button>
-                <button class="bt2">Assistir ao trailer</button>
+                 <a href="" target="_blank"><button class="bt1">Jogar agora!</button></a>
+                 <a href="" target="_blank"> <button class="bt2">Assistir ao trailer</button></a>
             </div>
         </div>
 
@@ -52,58 +53,105 @@
 
         <h1>Features</h1>
 
-        <div class="Todas">
+       <div class="Todas">
 
-            <!-- CAIXA 1 -->
-            <div class="card1">
-
-                <div class="Card1Texto">
-
-                    <br><br><h3>Relogio de Batalha</h3><br>
-
-                    <i>
-                        <p>
-                            À medida que o tempo avança, cada segundo se torna decisivo, aumentando a tensão e a expectativa pelo resultado final. Além de orientar os jogadores, o relógio também reforça o ritmo acelerado das batalhas, tornando a experiência mais envolvente e estratégica.
-                        </p>
-                    </i>
-
-                </div>
-
-            </div>
-
-            <!-- CAIXA 2 -->
-            <div class="card2">
-
-                <div class="Card2Texto"></div>
-
-                <br><br><h3>Distrações Doces</h3><br>
-
-                <i>
-                    <p>
-                        Na cozinha do jogo, a Gota de Açúcar e os Cubos de Açúcar são distrações que surgem durante as batalhas, trazendo efeitos que podem ajudar ou atrapalhar. Com um visual doce, deixam o jogo mais dinâmico e divertido.
-                    </p>
-                </i>
-
-            </div>
-
-            <!-- CAIXA 3 -->
-            <div class="card3">
-
-                <div class="Card3Texto"></div>
-
-                <br><br><h3>Buffs</h3><br>
-
-                <i>
-                    <p>
-                        Na cozinha do jogo, a Maçã e o Chá Verde funcionam como buffs que fortalecem o jogador durante as batalhas. Com efeitos positivos, eles aumentam o desempenho e ajudam a enfrentar os desafios de forma mais eficiente.
-                    </p>
-                </i>
-
-            </div>
-
+    <div class="card">
+        <div class="card__texto">
+            <h3>Relógio de Batalha</h3>
+            <p>À medida que o tempo avança, cada segundo se torna decisivo, aumentando a tensão e a expectativa pelo resultado final. Além de orientar os jogadores, o relógio também reforça o ritmo acelerado das batalhas, tornando a experiência mais envolvente e estratégica.</p>
         </div>
-
     </div>
+
+    <div class="card">
+        <div class="card__texto">
+            <h3>Distrações Doces</h3>
+            <p>Na cozinha do jogo, a Gota de Açúcar e os Cubos de Açúcar são distrações que surgem durante as batalhas, trazendo efeitos que podem ajudar ou atrapalhar. Com um visual doce, deixam o jogo mais dinâmico e divertido.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__texto">
+            <h3>Buffs</h3>
+            <p>Na cozinha do jogo, a Maçã e o Chá Verde funcionam como buffs que fortalecem o jogador durante as batalhas. Com efeitos positivos, eles aumentam o desempenho e ajudam a enfrentar os desafios de forma mais eficiente.</p>
+        </div>
+    </div>
+
+</div>
+          
+
+    <div>
+        <div class="sobre" id="sobre">
+            <h1>Sobre o jogo</h1>
+            <div class="conteudo">
+                <p>Em Papa’s Tia Bete!, você enfrenta a excêntrica vilã Tia Bete em uma cozinha completamente fora de controle. Controlando Don Sa. Ladinho (ou Dona Sa. Ladinha), o jogador usa uma espada carregada de insulina para destruir blocos de açúcar invocados pela inimiga e, assim, causar dano direto a ela.
+Na fase Cozinha Caótica, é preciso eliminar entre 20 e 30 blocos por rodada, repetindo o processo até derrotar Tia Bete. Mas cuidado: gotas de chocolate surgem para distrair, o tempo é limitado e o acúmulo de dano pode levar à derrota.
+Use maçãs para aumentar a velocidade de ataque e chá verde para recuperar vida. Rápido, desafiador e cheio de humor, o jogo transforma uma simples cozinha em uma batalha intensa contra o excesso de açúcar.</p>
+            <img src="./img/cozinhaa.png" alt="Cozinha do jogo">
+        </div>
+    </div>
+    <div class="main">
+        <div class="area-cards">
+            <div class="personagens" id="personagens">
+                <h1>Os Personagens</h1>
+                <div class="cards2">
+                    <div class="janela2">
+                        <div class="img">
+                            <img src="./img/donsaladinho.png" alt="Don Sa. Ladinho">
+                        </div>
+                        <div class="stats">
+                            <span class="hp">❤️ 120 HP</span>
+                            <span class="atk">⚔️ 45 ATK</span>
+                        </div>
+                        <span class="nome">Don Sa. Ladinho</span>
+                    </div>
+                    <div class="janela2">
+                        <div class="img">
+                            <img src="./img/donasaladinha.png" alt="Dona Sa. Ladinha">
+                        </div>
+                        <div class="stats">
+                            <span class="hp">❤️ 100 HP</span>
+                            <span class="atk">⚔️ 60 ATK</span>
+                        </div>
+                        <span class="nome">Dona Sa. Ladinha</span>
+                    </div>
+                    <div class="janela2">
+                        <div class="img">
+                            <img src="./img/tiabete.png" alt="Tia Bete">
+                        </div>
+                        <div class="stats">
+                            <span class="hp">❤️ 200 HP</span>
+                            <span class="atk">⚔️ 50 ATK</span>
+                        </div>
+                        <span class="nome">Tia Bete</span>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+        <div class="Missao" id="objetivos">
+            <div class="main">
+                <div class="area-cards">
+                    <h1>Objetivos</h1>
+                    <div class="cards3">
+                        <div class="janela3">
+                            <h3>Objetivo geral</h3>
+                                <p>Em Papa’s Tia Bete!, o jogador assume o papel de Don Sa. Ladinho ou Dona Sa. Ladinha em uma missão contra a poderosa vilã Tia Bete. O objetivo principal é sobreviver à fase “Cozinha Caótica” enquanto enfrenta uma enxurrada de desafios criados pela inimiga. Para vencer, o jogador precisa demonstrar agilidade, estratégia e precisão, destruindo todas as ameaças de açúcar que surgem no cenário. A cada avanço, o jogador se aproxima da vitória final, até conseguir derrotar Tia Bete e restaurar a ordem na cozinha.</p>
+                            
+                        </div>
+                        <div class="janela3">
+                            <h3>Mecânica de fase</h3>
+                                <p>O jogador precisa destruir entre 20 e 30 blocos de açúcar invocados pela Tia Bete. A cada ciclo completo, é causado 1 ponto de dano na vilã, sendo necessário repetir o processo três vezes para derrotá-la. Durante a batalha, gotas de chocolate podem surgir para distrair o jogador.</p>
+                        </div>
+                        <div class="janela3">
+                            <h3>Regras e Itens</h3>
+                            <p>O jogador perde se acumular 5 unidades de dano ou se o tempo acabar. Para ajudar na missão, pode usar a Espada carregada de insulina, além de consumíveis como Maçãs (aumentam a velocidade de ataque) e Chá Verde (recupera vida).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- =========================
               FOOTER
